@@ -1,4 +1,4 @@
-db = db.getSiblingDB("admin");
+//db = db.getSiblingDB("admin");
 
 db.createUser({
     user: "admin",
@@ -11,6 +11,6 @@ db.createUser({
     ]
   })
 
-db = db.getSiblingDB("iotdb");
+//db = db.getSiblingDB("iotdb");
 
-db.createCollection("Measurement")  
+db.createCollection("Measure")  
