@@ -1,9 +1,9 @@
-version: "3"
+version: "3.7"
 
 services:
   database:
     image: mongo
-    container_name: mongo-iot
+    container_name: database-iot
     ports:
       - 27017:27017
     environment:
